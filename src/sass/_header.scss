@@ -1,0 +1,9 @@
+header {
+  background: $primary-color;
+  border-bottom: 5px solid #666;
+  .container {
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+  }
+}

@@ -1,0 +1,29 @@
+.slick-dots {
+  list-style: none;
+  text-align: center;
+  position: relative;
+  top: -45px;
+  li {
+    display: inline-block;
+    position: relative;
+    margin: 0 10px;
+    &:after {
+      content: "";
+      width: 20px;
+      height: 20px;
+      background: rgba(#fff, 0.5);
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 50%;
+    }
+    &.slick-active {
+      &:after {
+        background: rgba(#fff, 1);
+      }
+    }
+    button {
+      opacity: 0;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+footer {
+  background-color: $primary-color;
+  .container {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+      font-size: 20px;
+      color: #000;
+    }
+  }
+}

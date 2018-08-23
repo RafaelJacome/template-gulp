@@ -1,0 +1,12 @@
+{
+  "css": [
+    "node_modules/slick-carousel/slick/slick.css",
+    "node_modules/bulma/css/bulma.min.css",
+    "src/sass/**/*.scss"
+  ],
+  "js": [
+    "node_modules/jquery/dist/jquery.min.js",
+    "node_modules/slick-carousel/slick/slick.min.js",
+    "src/js/**/*.js"
+  ]
+}
