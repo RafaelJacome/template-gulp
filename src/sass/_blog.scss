@@ -1,0 +1,34 @@
+.blog{
+    position: relative;
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition-duration: 1s; 
+    &:hover{
+       box-shadow: 670px 0px rgba(25,25,25, 0.5) inset;
+    }
+    .container{
+        position: relative;
+        overflow: hidden;
+        h1{
+            font-size: 200px;
+            margin: 50px auto;
+            text-align: center;
+            animation: 2.5s entrada 1;
+        }
+    }    
+}
+@keyframes entrada{
+    0%{
+        opacity: 0;
+        letter-spacing: 200px;
+    }
+    65%{
+        opacity: 0.5;
+    }
+    85%{
+        opacity: 1;
+    }
+}
