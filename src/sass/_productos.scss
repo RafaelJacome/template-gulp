@@ -5,9 +5,39 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    h1{
-        font-size: 170px;
-        text-align: center;
-        color:gray;
+    .container{
+        display: flex;
+        justify-content: center;
+        h1{
+            font-size: 170px;
+            text-align: center;
+            color:gray;
+            overflow: hidden;
+            width: 830px;
+            border-right: 2px solid white;
+            white-space: nowrap;
+            animation: 2s texto steps(20) 1s normal both,
+            pulsor 500ms steps(20) infinite normal; 
+        }
+    }
+}
+
+//animation
+
+@keyframes texto{
+    from{
+       width: 0px;
+    }
+    to{
+        width: 830px;
+    }
+}
+
+@keyframes pulsor{
+    from{
+        border-right-color: transparent;
+    }
+    to{
+        border-right-color: gray;
     }
 }
